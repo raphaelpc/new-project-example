@@ -8,10 +8,16 @@
   - [yarn start](#yarn-start)
 - [Before running](#before-running)
 - [How this project was created](#how-this-project-was-created)
+- [Versioning your application](#versioning-your-application)
+- [Publishing your application](#publishing-your-application)
+
 
 ## About
 
 An example project containing the steps to create a new React + Next JS app with Typescript, Styled Components and ESLint.
+
+This application is deployed in:
+https://new-project-example.vercel.app/
 
 ## Folder structure
 
@@ -159,5 +165,34 @@ yarn dev
 
 Check if the app is loaded without problems!
 
+## Versioning your application
+
+Create a new repository in your GitHub account.
+After that, in the VSCode terminal...
+
+```
+git init
+
+git add .
+
+git commit -m "My first commit!"
+
+git remote add origin https://github.com/youruser/yourproject.git
+
+git branch -M main
+
+git push -u origin main
+```
+
+Check on github.com if the project was correctly commited!
 
 
+## Publishing your application
+
+To publish your application on Vercel (www.vercel.com)...
+- Create and account;
+- Integrate it with your GitHub account;
+- On the main page, click to create a new project;
+- Import the Git Repository you created;
+- Select a scope (like your personal account);
+- Deploy the application!
